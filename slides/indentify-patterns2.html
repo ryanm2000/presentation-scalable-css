@@ -1,0 +1,33 @@
+<h2>
+  Identify Patterns
+</h2>
+<pre>
+  <code data-trim contenteditable>
+    .panel {
+      background: $panel-bg;
+      border-radius: 3px;
+      box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+      padding: 20px;
+
+      &.panel-featured {
+        background: $panel-featured-bg;
+      }
+
+      &.panel-simple {
+        background: transparent;
+        border: solid 1px $panel-simple-border;
+      }
+
+      &.panel-inversed {
+        background: $panel-inversed-bg;
+        color: $panel-inversed-color;
+      }
+    }
+  </code>
+</pre>
+
+
+<aside class="notes">
+  <li>Spin off modifiers</li>
+  <li>Use the cascade</li>
+</aside>

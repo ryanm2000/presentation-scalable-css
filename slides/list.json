@@ -1,0 +1,17 @@
+[
+    "index.md",
+    "intro.html",
+    "reduce.html",
+    "indentify-patterns.html",
+    "indentify-patterns2.html",
+    "eliminate-inline-styles.html",
+    "dont-use-element-selectors.html",
+    "work-with-your-designer.html",
+    "reuse.html",
+    "dryness.html",
+    "leverage-extend.html",
+    "recycle.html",
+    "modularization.html",
+    "abstraction.html",
+    "take-aways.html"
+]

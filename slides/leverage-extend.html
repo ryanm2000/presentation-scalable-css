@@ -1,0 +1,36 @@
+<h2>Leverage extend</h2>
+
+<pre class="fragment">
+  <code data-trim contenteditable>
+.big-dirty-call-to-action {
+  $extend(.simple-panel);
+  background: tomato;
+}
+  </code>
+</pre>
+<div class="fragment">
+  <p>To get:</p>
+  <pre>
+    <code data-trim contenteditable>
+.simple-panel,
+.big-dirty-call-to-action {
+  border-radius: 3px;
+  border: solid 1px grey;
+  box-shadow: 0 2px 2px rgba(0,0,0,.2);
+  padding: 8px;
+  width: 100%;
+}
+.big-dirty-call-to-action {
+  background: tomato;
+}
+    </code>
+  </pre>
+</div>
+
+
+
+<aside class="notes">
+  <ul>
+    <li>Less and Sass have it, use it</li>
+  </ul>
+</aside>

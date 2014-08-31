@@ -1,7 +1,17 @@
 body {
-  background: darkolivegreen;
+  background: #77A013;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+}
+
+body:after {
+  content: "@ryanmargheriti";
+  position: fixed;
+  bottom: 0;
+  left:0;
+  padding: 15px;
+  font-size: 24px;
+  color: rgba(255,255,255,.65);
 }
 
 .reveal section img {
@@ -11,10 +21,27 @@ body {
 }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6,
-.reveal li, .reveal p, .reveal a {
+.reveal li, .reveal p, .reveal a, .reveal pre {
     box-shadow: none;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+}
+
+.reveal .progress span {
+  background: #fff;
+}
+
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+  border-right-color:#fff;
+}
+
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+  border-left-color:#fff;
+}
+
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-down {
+  display: none;
 }
 
 .theme-title {

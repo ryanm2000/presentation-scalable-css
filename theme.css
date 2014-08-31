@@ -1,0 +1,27 @@
+body {
+  background: darkolivegreen;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.reveal section img {
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6,
+.reveal li, .reveal p, .reveal a {
+    box-shadow: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.theme-title {
+  color: #fff;
+  opacity: 0.4;
+}
+
+.theme-title.active {
+  opacity: 1;
+}

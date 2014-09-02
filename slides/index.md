@@ -1,5 +1,7 @@
 # Scalable CSS
-###Maintainable, modular, interactive-odular
+###Maintainable
+###Modular
+###Interactive-odular
 
 <aside class="notes">
   <strong>Tips for making stylesheets:</strong>

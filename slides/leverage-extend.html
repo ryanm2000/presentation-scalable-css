@@ -2,9 +2,11 @@
 
 <pre class="fragment">
   <code data-trim contenteditable>
-.big-dirty-call-to-action {
-  $extend(.simple-panel);
-  background: tomato;
+.modal {
+  @extend .simple-panel;
+  background: #fff;
+  position: fixed;
+  max-width: 450px;
 }
   </code>
 </pre>
@@ -13,15 +15,17 @@
   <pre>
     <code data-trim contenteditable>
 .simple-panel,
-.big-dirty-call-to-action {
+.modal {
   border-radius: 3px;
   border: solid 1px grey;
-  box-shadow: 0 2px 2px rgba(0,0,0,.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,.2);
   padding: 8px;
   width: 100%;
 }
-.big-dirty-call-to-action {
-  background: tomato;
+.modal {
+  background: #fff;
+  position: fixed;
+  max-width: 450px;
 }
     </code>
   </pre>
@@ -31,6 +35,8 @@
 
 <aside class="notes">
   <ul>
+    <li>Modal and panels are in diff files</li>
+    <li>Want to make it clean</li>
     <li>Less and Sass have it, use it</li>
   </ul>
 </aside>

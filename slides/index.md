@@ -1,2 +1,2 @@
 # Scalable CSS
-###Or - Sustainable Style Sheets
+###Maintainable, modular, interactive-odular

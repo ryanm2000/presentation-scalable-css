@@ -1,42 +1,21 @@
-<h2>Leverage extend</h2>
+<h2>Leverage @extend</h2>
 
 <pre class="fragment">
   <code data-trim contenteditable>
-.modal {
-  @extend .simple-panel;
-  background: #fff;
-  position: fixed;
-  max-width: 450px;
-}
+/* _boxes.scss */
+.box {}
+
+/* _modals.scss */
+.modal { @extend .box; }
   </code>
 </pre>
-<div class="fragment">
-  <p>To get:</p>
-  <pre>
-    <code data-trim contenteditable>
-.simple-panel,
-.modal {
-  border-radius: 3px;
-  border: solid 1px grey;
-  box-shadow: 0 1px 1px rgba(0,0,0,.2);
-  padding: 8px;
-  width: 100%;
-}
-.modal {
-  background: #fff;
-  position: fixed;
-  max-width: 450px;
-}
-    </code>
-  </pre>
-</div>
 
 
 
 <aside class="notes">
   <ul>
-    <li>Simulat inheritance</li>
-    <li>Modal and panels are in diff files</li>
+    <li>Simulate inheritance</li>
+    <li>Boxes and Modal example</li>
     <li>Want to make it clean</li>
     <li>Less and Sass have it, use it</li>
   </ul>

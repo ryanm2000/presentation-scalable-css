@@ -1,33 +1,38 @@
 <h2>
   Identify Patterns
 </h2>
+<div class="fragment">
+
+<strong>Bad:</strong>
 <pre>
   <code data-trim contenteditable>
-    .panel {
-      background: $panel-bg;
-      border-radius: 3px;
-      box-shadow: 0 3px 0 rgba(0,0,0,0.2);
-      padding: 20px;
+.promo-box {}
 
-      &.panel-featured {
-        background: $panel-featured-bg;
-      }
+.features  {}
 
-      &.panel-simple {
-        background: transparent;
-        border: solid 1px $panel-simple-border;
-      }
-
-      &.panel-inversed {
-        background: $panel-inversed-bg;
-        color: $panel-inversed-color;
-      }
-    }
+.tweets    {}
   </code>
 </pre>
+</div>
+<div class="fragment">
+
+<strong>Good:</strong>
+<pre>
+  <code data-trim contenteditable>
+.box {
+  // Default box styling
+  &.box-promo    {}
+  &.box-simple   {}
+  &.box-inversed {}
+}
+  </code>
+</pre>
+</div>
 
 
 <aside class="notes">
-  <li>Spin off modifiers</li>
-  <li>Use the cascade</li>
+  <li>Step back, analyze UI</li>
+  <li>Find Similarities</li>
+  <li>Codify those</li>
+  <li>Box example</li>
 </aside>
